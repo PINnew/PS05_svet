@@ -6,10 +6,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Инициализация браузера
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 # URL страницы
-url = 'https://www.divan.ru/izhevsk/category/svet'
+url = 'https://www.divan.ru/category/svet'
 driver.get(url)
 
 # Явное ожидание загрузки всех элементов на странице
